@@ -1,0 +1,88 @@
+.Banner-card{
+    background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ban{
+    line-height: 1.1;
+}
+.Banner-card button{
+    background-color: #fd5234;
+    color: white;
+    border: none;
+}
+
+.Banner-card p{
+    font-size: 50px;
+}
+
+.Banner-right img{
+height: 550px;
+}
+
+@media (max-width:992px){
+    
+    .Banner-right img{
+        height: 450px;
+        }
+}
+
+@media (max-width:778px){
+    
+    .Banner-right img{
+        height: 400px;
+        }
+}
+
+@media (max-width:670px){
+    .Banner-card{
+        flex-direction: column;  
+    }
+    .Banner-left{
+        margin-top: 20px;
+    }
+    .Banner-card p{
+        font-size: 40px;
+    }
+
+
+    .Banner-right img{
+        height: 500px;
+        }
+        
+}
+
+
+@media(max-width:576px){
+    
+    .Banner-right img{
+        height: 500px;
+        }
+        .Banner-card p{
+            font-size: 45px;
+        }
+    
+}
+@media(max-width:425px){
+    
+    .Banner-right img{
+        height: 450px;
+        }
+}
+@media(max-width:375px){
+    
+    .Banner-right img{
+        height: 400px;
+        }
+}
+
+@media(max-width:320px){
+    
+    .Banner-right img{
+        height: 300px;
+        }
+        .Banner-card{
+            width: 350px;
+        }
+}

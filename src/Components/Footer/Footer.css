@@ -1,0 +1,166 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    overflow-x: hidden;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-logo p {
+    margin-bottom: -5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-links li:hover {
+    border-bottom: 3px solid tomato;
+    margin-bottom: -3px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.footer-links li {
+    cursor: pointer;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.footer-icon {
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-copyright hr {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background-color: #424141;
+}
+
+@media (max-width:576px) {
+
+
+    .footer-links {
+        gap: 20px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .Footer {
+        overflow-x: hidden;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social-links {
+        gap: 30px;
+        margin: auto;
+    }
+
+    .footer-links {
+        gap: 20px;
+        list-style: none;
+        font-size: 1.1rem;
+    }
+
+    .footer-copyright p {
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+
+    .Footer {
+        overflow-x: hidden;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social-links {
+        gap: 10px;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .footer-links {
+        gap: 20px;
+        list-style: none;
+        font-size: 1.1rem;
+    }
+
+    .footer-copyright p {
+        text-align: center;
+    }
+}
+
+@media (max-width:320px) {
+
+    .Footer {
+        overflow-x: hidden;
+
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social-links {
+        gap: 10px;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .footer-links {
+        gap: 20px;
+        list-style: none;
+        font-size: 1.1rem;
+    }
+
+    .footer-copyright p {
+        text-align: center;
+        margin-right: -15px;
+    }
+}

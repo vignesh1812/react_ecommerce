@@ -1,0 +1,204 @@
+
+.LoginSignup-container h1{
+    margin: 20px 0;
+}
+
+.LoginSignup-feilds input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    padding: 0 20px;
+
+}
+
+.LoginSignup-container .LoginSignup-feilds{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+
+.LoginSignup-login{
+    color: #5c5c5c;
+    margin-top: 20px;
+}
+.LoginSignup-login span{
+    cursor: pointer;
+    color: rgb(246, 69, 38);
+}
+
+.LoginSignup .link{
+    text-decoration: none;
+}
+
+.LoginSignup-agree{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    column-gap:10px ;
+}
+
+.LoginSignup-agree input{
+    margin-bottom: 3px;
+    height: 1rem;
+    width: 1rem;
+}
+
+
+ .LoginSignup-container button{
+    width: 100%;
+    background-color: tomato;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.LoginSignup{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+.LoginSignup-container{
+    width: 600px;
+    height:auto ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: auto;
+    background: #fff;
+    padding: 40px 50px;
+}
+
+
+ @media(max-width:576px){
+    .LoginSignup-container{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .LoginSignup-container button{
+        width: 100%;
+        background-color: tomato;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    .LoginSignup{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+        margin-bottom: 100px;
+    }
+    .LoginSignup-container{
+        width: 100%;
+        height:auto ;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        margin: auto;
+        background: #fff;
+        padding: 40px 40px;
+    }
+    
+}
+ @media(max-width:425px){
+    .LoginSignup-container{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .LoginSignup-container button{
+        width: 100%;
+        background-color: tomato;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    .LoginSignup{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+        margin-bottom: 100px;
+    }
+    .LoginSignup-container{
+        width: 100%;
+        height:auto ;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        margin: auto;
+        background: #fff;
+        padding: 20px 5px;
+    }
+    
+}
+ @media(max-width:375px){
+    .LoginSignup-container{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .LoginSignup-container button{
+        width: 100%;
+        background-color: tomato;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    .LoginSignup{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+        margin-bottom: 100px;
+    }
+    .LoginSignup-container{
+        width: 100%;
+        height:auto ;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        margin: auto;
+        background: #fff;
+        padding: 20px 5px;
+    }
+    
+}
+ @media(max-width:320px){
+    .LoginSignup-container{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .LoginSignup-container button{
+        width: 100%;
+        background-color: tomato;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        color: white;
+    }
+    .LoginSignup{
+        height: 100vh;
+        width: 350px;
+        background: linear-gradient(0deg,white,rgba(255, 99, 71,0.3) 90%);
+        margin-bottom: 100px;
+    }
+    .LoginSignup-container{
+        width: 100%;
+        height:auto ;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        margin: auto;
+        background: #fff;
+        padding: 20px 5px;
+    }
+    
+}

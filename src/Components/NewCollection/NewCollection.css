@@ -1,0 +1,38 @@
+.new-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;    
+    gap: 10px;
+
+
+}
+
+.new-collection h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.new-collection hr{
+    width: 300px;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+
+.new-collection .new-collection-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media (max-width:320px){
+.new-collection h1{
+    font-size: 25px;
+}
+.new-collection .new-collection-item{
+    margin-left: -100px;
+}
+
+}
